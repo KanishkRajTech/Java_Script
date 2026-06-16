@@ -4,9 +4,9 @@ const myObject = {
     rb: 'Ruby'
 };
 
-for (const key in myObject) {
-    console.log(`key: ${key}, value: ${myObject[key]}`);
-}
+// for (const key in myObject) {
+//     console.log(`key: ${key}, value: ${myObject[key]}`);
+// }
 
 
 
@@ -27,6 +27,6 @@ function printMe(item){
 coding.forEach(printMe)
 
 
-coding.forEach( (item, index, arr)=>{
-    console.log(item, index, arr);
-})
+// coding.forEach( (item, index, arr)=>{
+//     console.log(item, index, arr);
+// })
